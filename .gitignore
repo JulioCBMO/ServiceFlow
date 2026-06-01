@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+*.swp
+*.class
+.project
+.classpath
+.settings/
+.vscode/
+
+# Local configuration
+local.properties
+keystore.properties
+google-services.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build outputs
+app/build/
+captures/
+outputs/
+
+# Other
+*.apk
+*.ap_
+*.dex
+*.zip
